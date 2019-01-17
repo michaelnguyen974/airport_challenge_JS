@@ -1,4 +1,6 @@
-# airport_challenge_JS
+# Airportchallenge_JS
+## TDD approach
+This project is fully test driven in Javascript using a Jasmine testing framework.
 ```
 As an air traffic controller 
 So I can get passengers to a destination 
