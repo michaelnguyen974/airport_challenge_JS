@@ -3,11 +3,12 @@ class Airport {
   }
 
   land(plane) {
-    plane
+    plane.isLanded = true
     return plane
   };
 
   takeoff(plane){
+    plane.isLanded = false
     return plane
   }
 };
