@@ -9,6 +9,10 @@ var airport;
     plane = new Plane;
   });
 
+  it("checks status of plane when new plane is made", () => {
+    expect(plane.flying).toEqual(false)
+  });
+
   it("status of plane equals false when asked if it's flying", () => {
     airport.land(plane)
     expect(plane.flying).toEqual(false)
@@ -18,6 +22,8 @@ var airport;
     airport.takeOff(plane)
     expect(plane.flying).toEqual(true)
   })
+
+  
 
   //CREATE SPY FOR AIRPORT
 });

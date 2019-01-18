@@ -4,7 +4,6 @@ class Plane {
     this.flying = flying
   };
 
-  isLanded() {
-    this.flying 
-  }
 };
+
+
