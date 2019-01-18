@@ -1,8 +1,10 @@
+'use strict'
 class Plane {
-  constructor() {
+  constructor(flying = false) {
+    this.flying = flying
   };
 
   isLanded() {
-    return true
+    this.flying 
   }
 };
